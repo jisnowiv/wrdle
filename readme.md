@@ -5,6 +5,7 @@ Wrdle is a Python clone of the New York Times word guessing game (Wordle). The p
 * A trie to efficiently check if a guess is in the word list (not necessary but interesting to implement) 
 
 ## Installation
+Initialize a virtual environment and then install [Rich](https://realpython.com/python-rich-package/).
 ```
 python -v venv venv
 source venv/bin/activate
@@ -18,8 +19,8 @@ Optional *d* flag is for debug mode (extra print statements).
 
 ## Gameplay
 Each round gives you six guesses, each guess must contain five letters. If a word is not in the word list, or contains
-invalid characters, you get a another guess.
-
+invalid characters you get another guess (the invalid guess won't be listed).
+There are several attached images of gameplay, currently I'm procrastinating the task of putting them into the readme.
 
 ## Contributing
 Pull requests are welcome. Known issues include:
